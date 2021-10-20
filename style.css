@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #8c52ff;
+}
+
+.nav li{
+    float: right;
+    list-style: none;
+}
+
+#logo{
+    max-width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    border-style: inset;
+}
+
+.nav a{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1rem;
+    font-weight: 550;
+    display: block;
+    padding: 5px 35px;
+    text-decoration: none;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+
+.left-col{
+    margin-left: 7%;
+}
+
+.left-col h1{
+    font-size: 50px;
+    color: pink;
+}
+
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: -7%;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p{
+    font-size: 21px;
+    color: pink;
+    font-weight: 650;
+    margin-right: 20px;
+}
+
+#icon{
+    border-radius: 80%;
+    cursor: pointer;
+}
